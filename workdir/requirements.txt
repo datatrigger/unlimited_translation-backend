@@ -1,0 +1,17 @@
+### API back-end
+fastapi
+uvicorn
+
+### NLP
+
+# Sentence segmentation
+spacy>=3.4.0,<3.5.0
+https://github.com/explosion/spacy-models/releases/download/de_dep_news_trf-3.4.0/de_dep_news_trf-3.4.0-py3-none-any.whl
+# We could install the above `de_dep_news_trf` sentence segmenter from local to avoid re-downloading it every time we build this Docker image:
+# file:de_dep_news_trf-3.4.0.tar.gz#egg=de_dep_news_trf
+# The model is available at https://github.com/explosion/spacy-models/releases/download/de_dep_news_trf-3.4.0/de_dep_news_trf-3.4.0.tar.gz
+
+## Translation
+transformers
+sentencepiece
+sacremoses
