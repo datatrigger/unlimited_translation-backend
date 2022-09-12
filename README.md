@@ -1,2 +1,1 @@
-# unlimited_translation-backend
-Source of the Docker image for the API backend of the unlimited-translation app
+This is the backend microservice of my [translation app](https://www.datatrigger.org/post/unlimited_translation_docker/).
