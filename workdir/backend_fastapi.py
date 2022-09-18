@@ -5,13 +5,13 @@ import shutil # zip
 import spacy # sentence segmentation
 from transformers import pipeline # translation
 
-### unzip models
+# ### unzip models
 
-if 'translator_de_en' not in os.listdir():
-    shutil.unpack_archive(
-        filename = f'translator_de_en.zip',
-        extract_dir = '.'
-        )
+# if 'translator_de_en' not in os.listdir():
+#     shutil.unpack_archive(
+#         filename = f'translator_de_en.zip',
+#         extract_dir = '.'
+#         )
 
 ### load models
 sentence_segmenter = spacy.load("de_dep_news_trf")

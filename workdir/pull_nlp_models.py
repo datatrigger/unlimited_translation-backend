@@ -7,16 +7,19 @@ translator_de_en = pipeline("translation", model=f'Helsinki-NLP/opus-mt-de-en')
 # Save model to disk
 translator_de_en.save_pretrained('translator_de_en')
 
-# Make .zip archives
-shutil.make_archive(
-    base_name = 'translator_de_en',
-    format = 'zip',
-    base_dir = 'translator_de_en',
-    root_dir = '.'
-)
+### The code below can be useful to save space, if .zip files can be used as is
+### With the transformers library, we need the folder to be decompressed
 
-# Delete uncompressed folder
-shutil.rmtree('translator_de_en')
+# # Make .zip archives
+# shutil.make_archive(
+#     base_name = 'translator_de_en',
+#     format = 'zip',
+#     base_dir = 'translator_de_en',
+#     root_dir = '.'
+# )
+
+# # Delete uncompressed folder
+# shutil.rmtree('translator_de_en')
 
 ### To download the SpaCy model (not necessary since installed via pip):
 
