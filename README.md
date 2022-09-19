@@ -1,3 +1,3 @@
-This is the backend microservice of my [translation app](https://translation.datatrigger.org).
+This is the backend microservice of my [translation app](https://translate.vlgdata.io).
 
-See also this [blog post](https://www.datatrigger.org/post/unlimited_translation_docker/).
+See also this [blog post](https://blog.vlgdata.io/post/unlimited_translation_docker/).
