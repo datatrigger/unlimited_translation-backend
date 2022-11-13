@@ -1,3 +1,3 @@
-This is the backend microservice of my [translation app](https://translate.vlgdata.io).
+This is the backend microservice of my translation app.
 
-See also this [blog post](https://blog.vlgdata.io/post/unlimited_translation_docker/).
+See this [blog post](https://blog.vlgdata.io/post/unlimited_translation_docker/).
